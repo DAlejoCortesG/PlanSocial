@@ -1,0 +1,74 @@
+/* SCRIPT PARA TEXTO CAMBIANTE */
+		var indice = 0;
+		frases = new Array();
+		frases[0] ="Antes de actuar, escucha. Antes de reaccionar, piensa. Antes de rendirte, inténtalo.-Ernest Hemingway-";
+		frases[1] ="El que hace reir a sus compañeros merece el paraíso.-Mahoma-";
+		frases[2] ="No mires a lo lejos descuidando lo que tienes cerca.-Eurípides-";
+		frases[3] ="La ignorancia puede ser curada, pero la estupidez es eterna.-Matt Artson-";
+		frases[4] ="Las palabras elegantes no son sinceras, las palabras sinceras no son elegantes.-Lao-Tse-";
+		frases[5] ="Guárdate del que adula indebidamente, te censurará injustamente-Proverbio árabe-";
+		frases[6] ="Sólo el tiempo revela al hombe justo, un solo día desenmascarará al pérfido.-Sófocles-";
+		frases[7] ="Si no quieres derramar el vino, no llenes demasiado el vaso.-Lao-Tse-";
+		frases[8] ="Talento es lo que uno posee, genio es lo que le posee a uno.-Malcom H. Cowley-";
+		frases[9] ="No es que tengamos poco tiempo, sino que perdemos mucho.-Séneca-";
+		frases[10] ="Saber creyendo no saber, eso es excelso. No saber creyendo saber, eso es una enfermedad.-Lao-Tse-";
+		frases[11] ="El hombre superior ama su alma, el hombre inferior ama su propiedad.-Lin Yutang-";
+		frases[12] ="La gente con mucha prisa suele hacer dos veces el trabajo.-Heródoto-";
+		frases[13] ="La verdad que daña es mejor que la mentira que alegra.-Máxima árabe-";
+		frases[14] ="Excava el pozo antes que tengas sed.-Proverbio chino-";
+		frases[15] ="No toda pregunta merece respuesta.-Publio Siro-";
+		frases[16] ="¿Quereis conocer a un hombre? Investidle de un gran poder.-Pitácoras-";
+		frases[17] ="Acomodarse con la pobreza es ser rico. Se es pobre, no por tener poco, sino por desear mucho.-Séneca-";
+		frases[18] ="Grabemos los agravios en la arena, y las gentilezas en el mármol.-Proverbio francés-";
+		frases[19] ="Es mejor y más segura una paz cierta que una victoria esperada.-Tito Livio-";
+		frases[20] ="EL victorioso tiene muchos amigos, el vencido tiene buenos amigos.-Proverbio mongol-";
+		frases[21] ="Las palabras que no van seguidas de los hechos no valen para nada.-Demóstenes-";
+		frases[22] ="El que da no debe volver a acordarse, pero el que recibe nunca debe olvidar.-Máxima hebrea-";
+		frases[23] ="Excelente cosa es tener la fuerza de un gigante, pero usar ella como gigante es propio de  un enano.-W. Shakespeare-";
+		frases[24] ="No reconozcas como superior más que a un hombre mejor que tú.-Pitácoras-";
+		frases[25] ="No destruyas lo que no has conseguido.-Solón-";
+		frases[26] ="El hombre instruido lleva en si mismo sus riquezas.-Fredo-";
+		frases[27] ="No sólo la fortuna es ciega, sino que hace ciegos a aquellos que favorece.-Cicerón-";
+		frases[28] ="En ninguna parte puede hallar el homber un retiro tan apacible y tranquilo como en la intimidad de su alma.-Marco Aurelio-";
+		frases[29] ="Quien comete un error y no lo corrige, comete otro error mayor.-Confucio-";
+		frases[30] ="Nada tan difícil como decidirse.-Napoleón-";
+		frases[31] ="Mala cosa es tener un lobo cogido por orejas, pues no sabes cómo soltarlo ni como continuar aguantándolo.-Terencio-";
+		frases[32] ="Los niños lo encuentran todo en nada, los hombres no encuentran nada en todo.-G. Leopardi-";
+		frases[33] ="Perdemos lo seguro por buscar lo incierto.-Plauto-";
+		frases[34] ="Peleando no se consigue jamás lo suficiente, pero cediendo se consigue más de lo que se espera.-Anónimo-";
+		frases[35] ="Quien siempre dice la verdad, puede permitirse tener mala memoria.-Anónimo-";
+		frases[36] ="Una discusión prolongada es un laberinto en el que la verdad siempre se pierde.-Séneca-";
+		frases[37] ="Siempre una obediencia ciega supone una ignorancia extrema.-J. Marat-";
+		frases[38] ="Humano es errar, pero sólo los estúpidos perseveran en el error.-Cicerón-";
+		frases[39] ="Generalmente ganamos la confianza de aquellos en que ponemos la nuestra.-Tito Livio-";
+		frases[40] ="La puerta mejor cerrada es aquella que puede dejarse abierta.-Proverbio chino-";
+		frases[41] ="No siempre podemos agradar, pero siempre podemos tratar de ser agradables.-Voltaire-";
+		frases[42] ="El amor es el olvido del yo.-Henri-Fréderic Amiel-";
+		frases[43] ="La imitación es la forma más sincera del halago.-C. Colton-";
+		frases[44] ="Generalizar es equivocarse siempre.-H. Keyserling-";
+		frases[45] ="Luchemos por cosas lo bastante grandes para que nos importen, y lo suficientemente pequeñas para poder ganarlas.-J. Kozo-";
+		frases[46] ="La belleza es una carta de recomendación a breve plazo.-N. Lenclos-";
+		frases[47] ="El más lento en prometer es siempre el más seguro en cumplir.-C. Strauss-";
+		frases[48] ="No me digas lo mucho que trabajas. Háblame de lo mucho que haces.-J. Ling-";
+		frases[49] ="Los más sabios y los más tontos son los únicos que no se alteran.-Confucio-";
+		frases[50] ="Lo que no quiero que los demás me hagan a mi, tampoco se lo hago a los demás.-Zigong-";
+		frases[51] ="La mente se despierta con la poesía, se afirma con los ritos y se completa con la música.-Confucio-";
+		frases[52] ="El hombre benevolente es cuidadoso con sus palabras.-Confucio-";
+		frases[53] ="Es difícil ser pobre sin quejarse, es fácil ser rico y orgulloso.-Confucio-";
+		frases[54] ="El que tiene fundamento en la lealtad y la confianza y se orienta hacia la justicia, honra la virtud.-Zizhang-";
+		frases[55] ="El hombre ha sido creado no para dudar sino para trabajar.-Thomas Carlyle-";
+		frases[56] ="La venganza prolonga y agrava las enemistades.-Joseph Addison-";
+		frases[57] ="La felicidad consiste en buscarla.-Jules Renard-";
+		frases[58] ="Las discusiones son los escollos de la amistad.-Edmundo d'Amicis-";
+		frases[59] ="El tiempo no es sino el espacio entre nuestros recuerdos.-Henri-Fréderic Amiel-";
+		frases[60] ="Si me engañas una vez, tuya es la culpa. Si me engañas dos, la culpa es mía.-Anaxágoras-";
+
+		indice = Math.random()*(frases.length);
+		indice = Math.floor(indice);
+
+		function rotar() {
+		if (indice == frases.length) {indice = 0;}
+		document.getElementById("rotando").innerHTML = frases[indice];
+		indice++;
+		setTimeout("rotar();",20000);
+		}
